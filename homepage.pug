@@ -1,0 +1,12 @@
+extend componentes/plantilla.pug
+block contenidos
+  aside
+    h1.aside__title MENU
+    ul.aside__link-container
+      for enlace in enlaces
+        li=enlace
+  main
+    h1 #{titulos[0]}
+    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repellendus nostrum harum numquam rerum nesciunt omnis sunt autem praesentium libero nemo similique atque dolor officia ad velit, sequi voluptas. Ipsa.
+    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sapiente molestiae veritatis rerum fuga harum consectetur? Nisi, nemo similique aut harum temporibus corporis natus explicabo debitis magnam ea modi atque!
+    a.boton VER MAS
